@@ -1,4 +1,4 @@
-# Azure Virtual Machine Creation used to host an Active Directory Domain Controller
+# Azure Virtual Machine Creation used to host an Active Directory Domain Controller (part 1)
 
 <p>First thing we need to do is to take advantage of Microsoft Azure&#8217;s Free Tier services: <a href="https://azure.microsoft.com/en-us/free" target="_blank" rel="noreferrer noopener">https://azure.microsoft.com/en-us/free</a>.</p>
 
