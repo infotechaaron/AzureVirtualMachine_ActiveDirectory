@@ -64,21 +64,25 @@ Create a Username and Password for this VM.
 
 Under Select inbound ports, I’m using Remote Desktop: RDP (3389)
 If you’re using RDP, make sure you to add your windows username to the allowed list of Remote Desktop Users in Computer Management (type “Computer Management” in Windows search bar > System Tools > Local Users and Groups > Remote Desktop Users)
+<br />
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/4mzSLjF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 <br /></p>
 Then select the blue Review + create button (you may get an error message stating that you cannot run a VM of this size in the selected zone. If so, just change the value in the Availability Zone field)
-<br />
 <br />
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/ucBP4b8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /></p>
-Now we’re on the Review + Create page (notice it tells you the price per hour to run this VM, as well as the Basics we’ve just configured). If everything looks good, go ahead and select the blue Create button at the bottom.
+On the Review + Create page (notice it tells you the price per hour to run this VM, as well as the Basics we’ve just configured). If everything looks good, go ahead and select the blue Create button at the bottom.
+<br />
 <br />
 <br />
 Azure will run several validation checks and if everything passes, you’ll see a Deployment is in progress message. Shortly after we see a new message, Your deployment is complete.
+<br />
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/4ZUQMDU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -107,7 +111,7 @@ On the Virtual machines screen select Create > Azure virtual machine (notice the
 <br />
 <br />
 Now for the second VM, is used the following parameters:
-
+<br />
 - Resource group (same): HomeLab
 - VM name: Windows10
 - Availability zone: Zones 3
@@ -179,6 +183,7 @@ Access control (IAM): this tab allows you to grant access and assign roles to us
 <br/>
 <img src="https://i.imgur.com/HRsRZFl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
+<br />
 <img src="https://i.imgur.com/vP5wg7e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /></p>
 <br />
