@@ -284,7 +284,7 @@ Then click OK > Restart Now (VM will disconnect and you’ll need to RDP back in
 Note: I could’ve changed the name of this PC (Server2019) in the initial Azure VM configuration, but knowing how to rename a PC is a basic skill everyone in IT should know how to do.
 <br />
 <br />
-Windows10 VM
+<strong>Windows10 VM</strong>
 
 While that’s restarting, I’ll go ahead and connect to the Windows10 VM for the first time by following the exact same process as connecting to the Server2019 VM (download the RDP file > open > enter credentials). Hit “Accept” for Privacy Settings on the Windows10 VM:
 <br/>
@@ -294,7 +294,7 @@ While that’s restarting, I’ll go ahead and connect to the Windows10 VM for t
 Repeat the updating the correct date/time process as well as renaming this VM from Windows10 to Desktop-01. Restart the VM to apply.
 <br />
 <br />
-Miami-01:
+<strong>Miami-01:</strong>
 
 Reconnect to Miami-01 via rdp.
 
@@ -330,4 +330,4 @@ Note: I’m starting and stopping these VMs a lot because we don’t want to be 
 <br />
 When you’re ready, continue on to Part 2
 
-MAKE SURE TO STOP YOUR VIRTUAL MACHINE!
+<strong>MAKE SURE TO STOP YOUR VIRTUAL MACHINE!</strong>
