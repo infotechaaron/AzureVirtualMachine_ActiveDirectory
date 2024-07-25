@@ -1,3 +1,39 @@
+<h1>Azure Virtual Machine Creation used to host an Active Directory Domain Controller (part 1)</h1>
+
+ ### YouTube Demonstration - Coming Soon!
+
+<h2>Description</h2>
+In this lab we're going to walk through how to deploy two Microsoft Azure virtual machines in which to create an Active Directory home lab Environmert. Configuring and running this lab will definitely help develop your understanding of how active directory and windows networking works, so I'd highly recommend running through it a couple times and then eventually try to build it on your without using this tutorial.
+<br />
+
+
+<h2>Languages and Programs Used</h2>
+
+- <b>PowerShell</b> 
+- <b>Microsoft Azure</b>
+
+<h2>Operating Systems Used </h2>
+
+- <b>Windows Server 2019</b> (Domain Controller for Active Directory)
+- <b>Windows 10</b> (A client machine to add to Active Directory)
+
+<h2>Program walk-through:</h2>
+
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/UbAkoIp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+
+
+
+
 # Azure Virtual Machine Creation used to host an Active Directory Domain Controller (part 1)
 
 <p>First thing we need to do is to take advantage of Microsoft Azure&#8217;s Free Tier services: <a href="https://azure.microsoft.com/en-us/free" target="_blank" rel="noreferrer noopener">https://azure.microsoft.com/en-us/free</a>.</p>
