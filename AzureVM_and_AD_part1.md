@@ -212,7 +212,7 @@ Reset password: a common use here is if you’ve forgotten your password or lock
 <br /></p>
 <br />
 <br />
-Server2019 VM:
+<strong>Server2019 VM:</strong>
 
 Now let’s actually connect to our Server2019 VM by going to Connect, Download RDP file and Open:
 <br />
