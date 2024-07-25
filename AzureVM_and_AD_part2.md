@@ -345,18 +345,82 @@ Now we can see the new AD user Joe has been created:
 <br />
 So that was a brief tutorial on creating AD user via PowerShell. You just need to make sure to import the active directory module first.
 
-<h3>Other useful PowerShell commands are:</h3>h3>
+<h3>Other useful PowerShell commands are:</h3>
 
-whoami
-PS C:\Users\helpdesk> whoami
+<strong>whoami</strong><br />
+<br />
+PS C:\Users\helpdesk> whoami<br />
 infotechaaron\helpdesk
-
+<br />
 whoami tells us that we are logged into the user helpdesk on the infotechaaron domain.
-
-whoami /fqdn
-PS C:\Users\helpdesk> whoami /fqdn
+<br />
+<br />
+<strong>whoami /fqdn </strong><br />
+PS C:\Users\helpdesk> whoami /fqdn<br />
 CN=helpdesk,CN=Users,DC=infotechaaron,DC=local
-
+<br />
+<br />
 whoami /fqdn tells us a little more such as the Domain Controller is infotechaaron.local
-
+<br />
+<br />
 Finally, let’s enable the new AD user Joe’s account by right-clicking on his name > Enable Account:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/3eEqDhw.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+You’ll get this error because we need to give the user Joe a password:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/m52BcuD.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+Right-click on the user and select Reset Password:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/raMiSWg.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+Enter any password and hit Enter:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/msJ7Cgw.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+You’ll see this popup if password is successful (hit OK):
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/WWiYsm4.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+Right-click on Joe again and then Enable Account:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/MFlA1wb.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+You’ll see this popup if successful:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/7wjHLeG.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<br /></p>
+<br />
+<br />
+That’s it for part 2. In this tutorial we covered:
+
+- Configuring and Installing Active Directory on the Server2019 virtual machine
+- Active Directory Administrative Center
+- Adding new AD user using PowerShell
