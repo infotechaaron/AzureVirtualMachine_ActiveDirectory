@@ -277,3 +277,50 @@ Then click OK > Restart Now (VM will disconnect and you’ll need to RDP back in
 Note: I could’ve changed the name of this PC (Server2019) in the initial Azure VM configuration, but knowing how to rename a PC is a basic skill everyone in IT should know how to do.
 <br />
 <br />
+Windows10 VM
+
+While that’s restarting, I’ll go ahead and connect to the Windows10 VM for the first time by following the exact same process as connecting to the Server2019 VM (download the RDP file > open > enter credentials). Hit “Accept” for Privacy Settings on the Windows10 VM:
+<br/>
+<p align="center">
+<img src="https://i.imgur.com/xFjwbob.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+Repeat the updating the correct date/time process as well as renaming this VM from Windows10 to Desktop-01. Restart the VM to apply.
+<br />
+<br />
+Miami-01:
+
+Reconnect to Miami-01 via rdp.
+
+Once connected, let’s verify the name change by opening the command prompt and issuing the command: whoami /user
+<br />
+Then select your local timezone:
+<br/>
+<p align="center">
+<img src="https://i.imgur.com/rhWTra2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+<br />
+<br />
+Notice the green arrow pointing to the new pc name of miami-01:
+<br />
+Then select your local timezone:
+<br/>
+<p align="center">
+<img src="https://i.imgur.com/lGQ4Bu7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+<br />
+<br />
+So we are good to go with this VM and go ahead and sign out. This will bring you back to the Azure dashboard.
+
+Select Virtual machines > check the box to the left of Name to select all > Stop both VMs:
+<br/>
+<p align="center">
+<img src="https://i.imgur.com/wlf9ann.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+<br />
+Note: I’m starting and stopping these VMs a lot because we don’t want to be charged for a VM running while we are not using it.
+<br />
+<br />
+<br />
+When you’re ready, continue on to Part 2
+
+MAKE SURE TO STOP YOUR VIRTUAL MACHINE!
