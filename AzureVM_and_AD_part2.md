@@ -420,7 +420,11 @@ You’ll see this popup if successful:
 <br />
 <br />
 That’s it for part 2. In this tutorial we covered:
-
+<br />
 - Configuring and Installing Active Directory on the Server2019 virtual machine
 - Active Directory Administrative Center
 - Adding new AD user using PowerShell
+<br />
+<br />
+<h3>MAKE SURE TO STOP YOUR VIRTUAL MACHINE!</h3>
+
