@@ -30,6 +30,7 @@ Select the &#8220;Start free&#8221; button to sign up to start using the free cl
 <br />
 NOTE: Throughout this lab, I will be (and you should too) starting and stopping my VMs constantly to avoid using unnecessary resources that come out of my free tier. When finished with your lab, I recommend STOPPING the virtual machines completely (I’ll show that later).
 <br />
+<br />
 Alrighty then. After signing up, you will be directed to the Microsoft Azure Dashboard. From here select Virtual machines:
 <br />
 <p align="center">
