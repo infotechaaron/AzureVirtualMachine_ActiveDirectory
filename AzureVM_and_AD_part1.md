@@ -19,9 +19,11 @@ In this lab we're going to walk through how to deploy two Microsoft Azure virtua
 
 <h2>Program walk-through:</h2>
 
+<p>First thing we need to do is to take advantage of Microsoft Azure&#8217;s Free Tier services: <a href="https://azure.microsoft.com/en-us/free" target="_blank" rel="noreferrer noopener">https://azure.microsoft.com/en-us/free</a>.</p>
+
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/UbAkoIp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d62GrBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
@@ -32,15 +34,6 @@ Select the disk:  <br/>
 
 
 
-
-
-# Azure Virtual Machine Creation used to host an Active Directory Domain Controller (part 1)
-
-<p>First thing we need to do is to take advantage of Microsoft Azure&#8217;s Free Tier services: <a href="https://azure.microsoft.com/en-us/free" target="_blank" rel="noreferrer noopener">https://azure.microsoft.com/en-us/free</a>.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" width="1812" height="1033" src="https://aaronguild.net/wp-content/uploads/2024/04/image-41.png" alt="" class="wp-image-4647" srcset="https://aaronguild.net/wp-content/uploads/2024/04/image-41.png 1812w, https://aaronguild.net/wp-content/uploads/2024/04/image-41-300x171.png 300w, https://aaronguild.net/wp-content/uploads/2024/04/image-41-1024x584.png 1024w, https://aaronguild.net/wp-content/uploads/2024/04/image-41-768x438.png 768w, https://aaronguild.net/wp-content/uploads/2024/04/image-41-1536x876.png 1536w" sizes="(max-width: 1812px) 100vw, 1812px" /></figure>
 
 
 
