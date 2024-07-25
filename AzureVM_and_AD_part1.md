@@ -24,6 +24,7 @@ In this lab we're going to walk through how to deploy two Microsoft Azure virtua
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/d62GrBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 Select the &#8220;Start free&#8221; button to sign up to start using the free cloud services and an additional $200 credit towards the non-free cloud services. For verification you&#8217;ll need to provide a credit card. Microsoft will not charge you during this process.  <br />
 <br />
 Select the disk:  <br/>
