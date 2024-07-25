@@ -24,18 +24,63 @@ In this lab we're going to walk through how to deploy two Microsoft Azure virtua
 <p align="center">
 <br/>
 <img src="https://i.imgur.com/d62GrBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<br /></p>
 Select the &#8220;Start free&#8221; button to sign up to start using the free cloud services and an additional $200 credit towards the non-free cloud services. For verification you&#8217;ll need to provide a credit card. Microsoft will not charge you during this process.  <br />
+NOTE: Throughout this lab, I will be (and you should too) starting and stopping my VMs constantly to avoid using unnecessary resources that come out of my free tier. When finished with your lab, I recommend STOPPING the virtual machines completely (I’ll show that later).
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Alrighty then. After signing up, you will be directed to the Microsoft Azure Dashboard. From here select Virtual machines:
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/sVVh4ym.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
 <br />
 <br />
+Next in the Virtual machines screen, select Create > Azure virtual machine: <br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/bfZ1r2v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+<br />
+<br />
+Now you will be prompted to configure the virtual machine: <br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/4CIhZCy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+<br />
+<br />
+You need to create a new Resource group (a collection of resources that share the same lifecycle, permissions and policies). I called it HomeLab
 
+Give the VM a Virtual machine name: Server2019
 
+Choose and Image: Windows Server 2019 Datacenter -x64 Gen2 (free services eligible)
 
+In Size field you can specify the amount of CPUs, memory, etc. Just leave it as the default (free services eligible)
 
+Create a Username and Password for this VM.
 
+Under Select inbound ports, I’m using Remote Desktop: RDP (3389)
+If you’re using RDP, make sure you to add your windows username to the allowed list of Remote Desktop Users in Computer Management (type “Computer Management” in Windows search bar > System Tools > Local Users and Groups > Remote Desktop Users)
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/4mzSLjF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+Then select the blue Review + create button (you may get an error message stating that you cannot run a VM of this size in the selected zone. If so, just change the value in the Availability Zone field)
+<br />
+<br />
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/ucBP4b8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
+Now we’re on the Review + Create page (notice it tells you the price per hour to run this VM, as well as the Basics we’ve just configured). If everything looks good, go ahead and select the blue Create button at the bottom.
+<br />
+<br />
+Azure will run several validation checks and if everything passes, you’ll see a Deployment is in progress message. Shortly after we see a new message, Your deployment is complete.
+<p align="center">
+<br/>
+<img src="https://i.imgur.com/4ZUQMDU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /></p>
 
 
 <p>Select the &#8220;Start free&#8221; button to sign up to start using the free cloud services and an additional $200 credit towards the non-free cloud services. For verification you&#8217;ll need to provide a credit card. Microsoft will not charge you during this process.</p>
