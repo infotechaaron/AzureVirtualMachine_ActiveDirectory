@@ -26,7 +26,8 @@ In this lab we're going to walk through how to deploy two Microsoft Azure virtua
 <img src="https://i.imgur.com/d62GrBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /></p>
 Select the &#8220;Start free&#8221; button to sign up to start using the free cloud services and an additional $200 credit towards the non-free cloud services. For verification you&#8217;ll need to provide a credit card. Microsoft will not charge you during this process.  <br />
-
+<br />
+<br />
 NOTE: Throughout this lab, I will be (and you should too) starting and stopping my VMs constantly to avoid using unnecessary resources that come out of my free tier. When finished with your lab, I recommend STOPPING the virtual machines completely (I’ll show that later).
 <br />
 Alrighty then. After signing up, you will be directed to the Microsoft Azure Dashboard. From here select Virtual machines:
